@@ -1,0 +1,40 @@
+header{
+    background-color: $celeste;
+    color: $blanco;
+}
+h1{
+    text-align: center;
+    color: $aliceblue;
+    font-size: 400%;
+    padding: $pad20;
+}
+nav{
+    padding: $pad20;
+}
+main .section1, .section3{
+    line-height: 2;
+    padding: $pad20;
+}
+.section2{
+    text-align: center;
+}
+.header__logo{
+    display: flex;
+    align-items: center;    
+}
+.navbar-brand, .nav-link{
+    font-weight: bold;
+}
+.navbar a:hover {
+   color: $aliceblue;
+}
+h2{
+    color: $aliceblue;
+    text-align: center;
+    font-size: $pad50*2;
+}
+.rs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

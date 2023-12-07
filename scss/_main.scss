@@ -1,0 +1,41 @@
+p{
+    color: $aliceblue;
+    text-align: center;
+    padding: $pad50;
+}
+@media screen and (max-width: 1024px){
+    h2{
+        font-size: 4rem;
+    }
+}
+@media screen and (max-width: 600px){
+    h2, h1{
+        font-size: 3rem;
+    }
+}
+.img-fluid:hover{
+    transform: scale(1.15, 1.15);
+}
+.text{
+    animation-name: texto;
+    animation-iteration-count: infinite;
+    animation-duration: 6s;
+    animation-delay: 0s;
+}
+@keyframes texto{
+    0%{
+        color: $aliceblue;
+    }
+    25%{
+        color: $negro;
+    }
+    50%{
+        color: $aliceblue;
+    }
+    75%{
+        color: $negro;
+    }
+    100%{
+        color: $aliceblue;
+    }
+}

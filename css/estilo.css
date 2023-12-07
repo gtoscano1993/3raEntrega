@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #062868;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #00aeff;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 400%;
+  padding: 20px;
+}
+
+nav {
+  padding: 20px;
+}
+
+main .section1, .section3 {
+  line-height: 2;
+  padding: 20px;
+}
+
+.section2 {
+  text-align: center;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand, .nav-link {
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: aliceblue;
+}
+
+h2 {
+  color: aliceblue;
+  text-align: center;
+  font-size: 100px;
+}
+
+.rs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  color: aliceblue;
+  text-align: center;
+  padding: 50px;
+}
+
+@media screen and (max-width: 1024px) {
+  h2 {
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 600px) {
+  h2, h1 {
+    font-size: 3rem;
+  }
+}
+.img-fluid:hover {
+  transform: scale(1.15, 1.15);
+}
+
+.text {
+  animation-name: texto;
+  animation-iteration-count: infinite;
+  animation-duration: 6s;
+  animation-delay: 0s;
+}
+
+@keyframes texto {
+  0% {
+    color: aliceblue;
+  }
+  25% {
+    color: black;
+  }
+  50% {
+    color: aliceblue;
+  }
+  75% {
+    color: black;
+  }
+  100% {
+    color: aliceblue;
+  }
+}
+footer {
+  background: rgb(9, 48, 155);
+  background: linear-gradient(180deg, rgb(0, 174, 255) 19%, rgb(38, 34, 255) 100%);
+}
+
+h6 {
+  text-align: center;
+  color: white;
+  padding: 5px;
+  margin: 1px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*# sourceMappingURL=estilo.css.map */
